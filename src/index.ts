@@ -69,5 +69,10 @@ export class LocalMemoryStorage implements Storage {
   }
 }
 
+// Required to avoid typescript erroring when accessing value by index
+export interface LocalMemoryStorage extends Storage {
+  // Element implicitly has an 'any' type because expression of type '"a"' can't be used to index type 'LocalMemoryStorage'.
+}
+
 export const memoryStorage = new LocalMemoryStorage();
 export default LocalMemoryStorage;
