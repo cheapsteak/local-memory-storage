@@ -1,6 +1,6 @@
 # local-memory-storage
 
-[![npm](https://img.shields.io/npm/v/local-memory-storage)](https://www.npmjs.com/package/local-memory-storage) &nbsp; [![bundle size](https://img.shields.io/bundlephobia/minzip/local-memory-storage)](https://bundlephobia.com/package/local-memory-storage) 
+[![npm](https://img.shields.io/npm/v/local-memory-storage)](https://www.npmjs.com/package/local-memory-storage) [![github checks](https://github.com/cheapsteak/local-memory-storage/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/cheapsteak/local-memory-storage) [![bundle size](https://img.shields.io/bundlephobia/minzip/local-memory-storage)](https://bundlephobia.com/package/local-memory-storage) 
 
 An in-memory typescript implementation of the [Web Storage API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API) that should be API-compatible with `localStorage`.
 
